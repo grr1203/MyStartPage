@@ -13,9 +13,13 @@ const quotes = [
   },
 ];
 
-const quote = document.querySelector("#quote span:first-child");
-const author = document.querySelector("#quote span:last-child");
-const quoteIndex = Math.floor(Math.random() * quotes.length);
+function setQuote() {
+  const quote = document.querySelector("#quote span:first-child");
+  const author = document.querySelector("#quote span:last-child");
+  const quoteIndex = Math.floor(Math.random() * quotes.length);
 
-quote.innerText = quotes[quoteIndex].quote;
-author.innerText = quotes[quoteIndex].author;
+  quote.innerText = quotes[quoteIndex].quote;
+  author.innerText = " - " + quotes[quoteIndex].author;
+}
+
+export default setQuote;

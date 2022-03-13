@@ -1,5 +1,19 @@
 @import "background.css";
+@import "clock.css";
+@import "quotes.css";
+@import "greeting.css";
+@import "todo.css";
+@import "weather.css";
 
 .hidden {
   display: none;
+}
+
+main {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
 }

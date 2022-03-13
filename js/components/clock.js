@@ -1,4 +1,4 @@
-const clock = document.querySelector("h2#clock");
+const clock = document.createElement("span");
 
 function UpdateClock() {
   const date = new Date();
@@ -10,3 +10,5 @@ function UpdateClock() {
 
 UpdateClock();
 setInterval(UpdateClock, 1000);
+
+export default clock;

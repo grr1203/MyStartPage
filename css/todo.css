@@ -1,0 +1,30 @@
+#todo-form input {
+  width: 400px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+#todo-form input::placeholder {
+  color: #eeeeee;
+}
+
+#todo-list {
+  width: 400px;
+  color: whitesmoke;
+  font-weight: 500;
+  padding-left: 0;
+}
+
+#todo-list li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#todo-list li button {
+  background-color: transparent;
+  border: none;
+}

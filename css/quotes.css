@@ -1,0 +1,9 @@
+#quote {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#quote span {
+  margin-right: 10px;
+}

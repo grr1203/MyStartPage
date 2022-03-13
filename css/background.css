@@ -1,6 +1,14 @@
 .bgImage {
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100vh;
+  width: 100vh;
   z-index: -1;
+  opacity: 0.8;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.85);
 }

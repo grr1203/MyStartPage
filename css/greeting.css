@@ -1,0 +1,29 @@
+#login-form {
+  margin-bottom: 100px;
+}
+
+#login-form input {
+  width: 250px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+#login-form input::placeholder {
+  color: #eeeeee;
+}
+
+#login-form button {
+  background-color: #555555;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 2px 10px;
+}
+
+#greeting {
+  margin-bottom: 100px;
+  color: whitesmoke;
+  font-weight: 600;
+}
